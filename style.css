@@ -489,7 +489,7 @@ li {
   position: relative;
   z-index: 20;
   margin: 0;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   font-weight: 100;
 }
 
@@ -506,7 +506,7 @@ li {
   text-decoration: none;
 }
 .school-logo-text--alt-color a {
-  color: #666;
+  color: #000;
 }
 .school-logo-text--alt-color a:hover {
   color: #0d3b66;
@@ -611,7 +611,7 @@ li {
 }
 .nav-list a {
   font-size: 0.9rem;
-  color: #999;
+  color: #000;
   text-decoration: none;
 }
 .nav-list a:hover {
@@ -816,6 +816,10 @@ body.login {
 }
 .btn--blue {
   background-color: #0d3b66;
+}
+.btn--red {
+  background-color: #ff0000;
+  font-weight: 700;
 }
 .btn--blue:hover {
   background: linear-gradient(rgb(13, 80, 143), #0d3b66);
@@ -1126,11 +1130,11 @@ body.login {
   font-size: 0.9rem;
 }
 .site-footer .headline {
-  color: #666;
+  color: #000;
   margin-bottom: 0.33rem;
 }
 .site-footer__link {
-  color: #999;
+  color: #000;
   text-decoration: none;
 }
 .site-footer__link:hover {
@@ -1680,7 +1684,8 @@ body.admin-bar .search-overlay {
 }
 .full-width-split__two {
   flex: 1;
-  background-color: #faf0ca;
+  background-color: #173f58;
+  color: #fff;
   padding: 1.6rem 16px;
 }
 @media (min-width: 960px) {
